@@ -4,7 +4,7 @@ import "./globals.css";
 import { Providers } from "@/providers";
 
 const raleway = Raleway({ subsets: ["latin"], fallback: ["sans-serif"] });
-export const mont = Montserrat()
+export const mont = Montserrat({subsets: ["latin"]})
 export const metadata: Metadata = {
   title: "WORKSPACE LEASING",
   description: "Askar DEV",
