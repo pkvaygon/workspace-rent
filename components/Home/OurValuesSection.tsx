@@ -1,4 +1,3 @@
-import { mont } from "@/app/layout";
 import { ourValues } from "@/static/home";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,7 +16,7 @@ export default function OurValuesSection() {
                         <Image fill src={el.icon} alt={el.title} />
                         </div>
                         <h3 className={`text-2xl font-semibold leading-9`}>{el.title}</h3>
-                        <h4 className={`${mont.className} text-base font-normal text-foreground-500`}>{el.text}</h4>
+                        <h4 className={`text-base font-normal text-foreground-500`}>{el.text}</h4>
                 </div>
 
             ))

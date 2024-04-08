@@ -1,4 +1,3 @@
-import { mont } from "@/app/layout";
 import { exploreSpaces } from "@/static/home";
 import Image from "next/image";
 
@@ -19,7 +18,7 @@ export default function ExploreSpacesSection() {
             </div>
             <div className="flex flex-col gap-2">
               <h4 className="font-semibold text-2xl tracking-wide">{el.type}</h4>
-              <p className={`${mont.className} text-foreground-500 leading-5`}>{el.desciption}</p>
+              <p className={` text-foreground-500 leading-5`}>{el.desciption}</p>
             </div>
           </div>
         ))}
