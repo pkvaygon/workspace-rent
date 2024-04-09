@@ -9,4 +9,5 @@ margin: 0 auto;
 .herobg{
 background-image: url('https://framerusercontent.com/images/ABmLw5dL1J3cQd2lejunswHVcls.jpg');
 background-position: top;
+background-repeat: no-repeat;
 }
