@@ -82,7 +82,7 @@ export const contactUsData = [
   {
     id: 0,
     image: "/phone.svg",
-    text: "( +123 ) 456 7890",
+    text: "+1 ( 847 ) 846 8245",
   },
   {
     id: 1,
@@ -92,6 +92,6 @@ export const contactUsData = [
   {
     id: 2,
     image: "/location.svg",
-    text: "123 Wanderer Street, Any State, City",
+    text: "123 Wanderer Street, Any City, Any State",
   },
 ];
