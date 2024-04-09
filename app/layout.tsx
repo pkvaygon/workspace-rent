@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/providers";
+import ContactUsSection from "@/components/ContactUsSection";
 
 const raleway = Raleway({ subsets: ["latin"]});
 export const metadata: Metadata = {
@@ -18,8 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={raleway.className}>
         <Providers>
-          <main>
-        {children}
+          <main className="flex flex-col gap-24">
+            {children}
+            <ContactUsSection/>
           </main>
         </Providers>
       </body>

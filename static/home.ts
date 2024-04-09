@@ -59,3 +59,39 @@ export const exploreSpaces = [
     desciption: "Great for freelancers and small teams.",
   },
 ];
+
+export const homeBanner = [
+  {
+    id: 0,
+    title: "Nina Robinson",
+    subtitle: "Shared Desks Client",
+    text: "WorkSpace has been a game-changer for me. The community here is so welcoming, the amenities are good!",
+    image:
+      "https://framerusercontent.com/images/HHHEaL5ZkxLZoNuguM8gHIMv2XU.png",
+  },
+  {
+    id: 1,
+    title: "Sarah Johnson",
+    subtitle: "Private Office Client",
+    text: "Best for my freelance journey. The vibrant atmosphere and the top-notch amenities have transformed the way I work.",
+    image:
+      "https://framerusercontent.com/images/Zz5tIaTr2eZJ3Nq129xiI0TZqeY.png",
+  },
+];
+export const contactUsData = [
+  {
+    id: 0,
+    image: "/phone.svg",
+    text: "( +123 ) 456 7890",
+  },
+  {
+    id: 1,
+    image: "/email.svg",
+    text: "workspace@mailservice.com",
+  },
+  {
+    id: 2,
+    image: "/location.svg",
+    text: "123 Wanderer Street, Any State, City",
+  },
+];
